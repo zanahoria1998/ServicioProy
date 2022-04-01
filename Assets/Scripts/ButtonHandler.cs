@@ -1,3 +1,4 @@
+//Código que contiene los botones de derecha, izquierda y retunr )en caso de zoom) 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,4 @@
+//Código que controla los dialogos, cuando aparecen y desaparecen
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

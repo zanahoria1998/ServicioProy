@@ -1,3 +1,4 @@
+//Código para cambio de vista
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

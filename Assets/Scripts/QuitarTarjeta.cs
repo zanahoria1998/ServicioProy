@@ -1,3 +1,4 @@
+//Código para desaparecer la tarjeta y seguir jugando.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

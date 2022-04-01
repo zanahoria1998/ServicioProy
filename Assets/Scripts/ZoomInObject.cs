@@ -1,3 +1,4 @@
+//Código para hacer zoom a los objetos
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,4 @@
+//Script para los objetos con etiqueta interactable
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

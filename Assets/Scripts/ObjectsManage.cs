@@ -1,3 +1,4 @@
+//Código para manejar los objetos en cada habitación de forma independiente; es decir, que un zoomobject en la pared 1 no afecte a la pared2
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

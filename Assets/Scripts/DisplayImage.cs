@@ -1,3 +1,4 @@
+//Código que contiene las variables y contadores para hacer zoom, cambio de vista y avanzar o retroceder entre paredes
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

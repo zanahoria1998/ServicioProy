@@ -1,3 +1,4 @@
+//Código que genera un arreglo para guardar los textos de los diáologs.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
