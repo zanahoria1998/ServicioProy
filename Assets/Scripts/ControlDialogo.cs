@@ -1,4 +1,3 @@
-//Código que controla los dialogos, cuando aparecen y desaparecen
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,15 +6,16 @@ using TMPro;
 public class ControlDialogo : MonoBehaviour
 {
 
+    //public GameObject[] trofeos;
+    public GameObject Prefabtrofeo;
+    private int puntos; //contador
     private Animator anim;
     private Queue <string> colaDialogos;
     Textos texto;
-    //public bool CartelPrueba;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
     public void ActivarCartel(Textos textoObjeto)//TextoObjeto es el texto que se le pasa en el script (ObjetoInteractable)
     {
-            //CartelPrueba=true;
             anim.SetBool("Cartel", true);
             texto = textoObjeto;
             Debug.Log("Llamada a ActivarCartel");
@@ -25,11 +25,18 @@ public class ControlDialogo : MonoBehaviour
     {
 
         colaDialogos.Clear();
-        foreach (string textoGuardar in texto.arrayTextos)
+        foreach (string textoGuardar in texto.arrayTextos) //recorre el texto dentro del array
         {
 
-            colaDialogos.Enqueue(textoGuardar);
-            Debug.Log("Llamada a ActivaTexto");
+            colaDialogos.Enqueue(textoGuardar); //cada palabra del array que se guarda en la variable textoGuardar, la agrega a la cola
+
+            if (textoGuardar == "Respuesta Correcta"){
+                Trofeo();
+                Debug.Log("if de texto wardar jala");
+            } 
+            else if (textoGuardar == "Respuesta Incorrecta"){
+                Debug.Log("Respuesta incorecta, función");
+            }
         }
 
         SiguienteFrase();
@@ -58,16 +65,43 @@ public class ControlDialogo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //puntos=trofeos.Length;
+        puntos=0;
         anim = GetComponent<Animator>();
        
         colaDialogos = new Queue<string>();
     }
 
-    //Update is called once per frame
-    /*void Update(){
+    void RevisionPuntaje(){
 
-        if(Input.GetButtonDown("Opcion1")){
-            ActivarCartel();
+
+        if(puntos == 0){ //puntaje = 0
+            //Instantiate(prefab, new Vector3(-233, -189, 3));
+            //Instantiate(trofeos[0].gameObject);
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 58, 0), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
+            //trofeo.transform.position = new Vector3(-233, -189, 3);
+            
         }
-    }*/
+
+        else if(puntos == 1){ // puntaje = 1
+            //Instantiate(trofeos[1].gameObject);
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 25, 3), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
+
+        }
+
+        else if(puntos == 2){ //Puntaje = 2
+            //Instantiate(trofeos[2].gameObject);
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, -6, 3), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
+
+        }
+    }
+
+    public void Trofeo(){
+        Debug.Log("Esto es puntos" + puntos);
+        RevisionPuntaje();
+        puntos++;
+    }
 }
