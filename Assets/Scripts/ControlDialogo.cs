@@ -6,7 +6,6 @@ using TMPro;
 public class ControlDialogo : MonoBehaviour
 {
 
-    //public GameObject[] trofeos;
     public GameObject Prefabtrofeo;
     private int puntos; //contador
     private Animator anim;
@@ -36,6 +35,7 @@ public class ControlDialogo : MonoBehaviour
             } 
             else if (textoGuardar == "Respuesta Incorrecta"){
                 Debug.Log("Respuesta incorecta, función");
+                Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
             }
         }
 
@@ -70,31 +70,28 @@ public class ControlDialogo : MonoBehaviour
         anim = GetComponent<Animator>();
        
         colaDialogos = new Queue<string>();
+        //destruir= GameObject.FindGameObjectWithTag("Tarjeta").GetComponent<QuitarTarjeta>();
     }
 
     void RevisionPuntaje(){
 
 
         if(puntos == 0){ //puntaje = 0
-            //Instantiate(prefab, new Vector3(-233, -189, 3));
-            //Instantiate(trofeos[0].gameObject);
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 58, 0), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
-            //trofeo.transform.position = new Vector3(-233, -189, 3);
-            
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
         else if(puntos == 1){ // puntaje = 1
-            //Instantiate(trofeos[1].gameObject);
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 25, 3), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
-
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
         else if(puntos == 2){ //Puntaje = 2
-            //Instantiate(trofeos[2].gameObject);
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, -6, 3), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
 
         }
     }

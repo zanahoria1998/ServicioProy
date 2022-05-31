@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Preba opci\xF3n 3"
+    - Respuesta Incorrecta
 --- !u!4 &672912662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7730981447167490931, guid: 88b0848166c75e14983b1caca898992f, type: 3}
@@ -1542,6 +1542,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Correcta
+    - "prueba de que sigue corriendo el di\xE1logo"
+    - prueba 2
 --- !u!1001 &727553915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2262,7 +2264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Prueba opci\xF3n 3 P3"
+    - Respuesta Incorrecta
 --- !u!114 &1019321989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2795,7 +2797,7 @@ GameObject:
   - component: {fileID: 1329148511}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: Tarjeta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2911,8 +2913,7 @@ MonoBehaviour:
   - {fileID: 732761922}
   - {fileID: 1854492133}
   - {fileID: 1162417616}
-  UIRenderObjects:
-  - {fileID: 1329148507}
+  UIRenderObjects: []
 --- !u!4 &1381374107
 Transform:
   m_ObjectHideFlags: 0
@@ -3257,7 +3258,7 @@ GameObject:
   - component: {fileID: 1578063994}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: Untagged
+  m_TagString: Tarjeta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3899,7 +3900,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1773657233
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3952,6 +3953,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Prefabtrofeo: {fileID: 2735723283418350789, guid: a87485497c7f4c449b049ec9c74e350a, type: 3}
+  Desactivar:
+  - {fileID: 1329148507}
+  - {fileID: 2107855111}
+  - {fileID: 1578063993}
   textoPantalla: {fileID: 323377399}
 --- !u!114 &1773657236
 MonoBehaviour:
@@ -4476,7 +4481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Prueba opci\xF3n 3 P2"
+    - Respuesta Incorrecta
 --- !u!114 &1990572696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4709,7 +4714,7 @@ GameObject:
   - component: {fileID: 2107855113}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: Tarjeta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
