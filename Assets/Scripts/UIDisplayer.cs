@@ -1,4 +1,4 @@
-//Código para renderizar objetos aunque no estén en el canvas, como la tarjeta.
+//Código para activar objetos.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +6,16 @@ using UnityEngine;
 public class UIDisplayer : MonoBehaviour, IInteractable
 {
    
-   public GameObject DisplayObject;
+   int j,i;
+   public GameObject[] TarjetasRandom;
 
    public void Interact(DisplayImage actualDisplay){
 
-    DisplayObject.SetActive(true);
+      i = Random.Range(0,TarjetasRandom.Length);
+      Debug.Log("esto es i "+ i);
+      TarjetasRandom[i].SetActive(true);
+      for(j=0; j<TarjetasRandom.Length; j++){
+            TarjetasRandom[j]=null;
+      }
    }
 }

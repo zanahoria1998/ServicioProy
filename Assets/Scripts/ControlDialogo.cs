@@ -77,19 +77,21 @@ public class ControlDialogo : MonoBehaviour
 
 
         if(puntos == 0){ //puntaje = 0
-            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 58, 0), transform.rotation) as GameObject;
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 68, 0), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
         else if(puntos == 1){ // puntaje = 1
-            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, 25, 3), transform.rotation) as GameObject;
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 35, 3), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
         else if(puntos == 2){ //Puntaje = 2
-            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(132, -6, 3), transform.rotation) as GameObject;
+            GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 1, 3), transform.rotation) as GameObject;
+                                                                    //129,-32,0
+                                                                    //129,-65,0
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
 
