@@ -981,7 +981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 357, y: -1}
+  m_AnchoredPosition: {x: 357, y: 0}
   m_SizeDelta: {x: 89.002, y: 460.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491141259
@@ -1710,7 +1710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732761922}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0.25, z: -4.746887}
+  m_LocalPosition: {x: 0.209, y: 0.25, z: -4.746887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1728,7 +1728,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f388ad23f9c91dd45a28fc2af90ac8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TarjetasRandom:
+  textos:
+    arrayTextos:
+    - "Est\xE1 pregunta ya fue respondida"
+  Tarjetas:
   - {fileID: 1329148507}
   - {fileID: 2107855111}
   - {fileID: 1578063993}
@@ -1757,11 +1760,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -4.722761, y: 0.7955035}
-      - {x: -5.044753, y: -0.21528769}
-      - {x: -3.509577, y: -0.7280264}
-      - {x: -3.3660276, y: -0.27702123}
-      - {x: -3.200171, y: 0.2874129}
+    - - {x: -4.661243, y: 0.77657485}
+      - {x: -4.9548426, y: -0.224752}
+      - {x: -3.5285058, y: -0.75168717}
+      - {x: -3.3944204, y: -0.27702123}
+      - {x: -3.2522247, y: 0.26375213}
 --- !u!1 &875802849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,7 +2707,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f388ad23f9c91dd45a28fc2af90ac8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TarjetasRandom:
+  textos:
+    arrayTextos:
+    - "Est\xE1 pregunta ya fue respondida"
+  Tarjetas:
   - {fileID: 1329148507}
   - {fileID: 2107855111}
   - {fileID: 1578063993}
@@ -2733,23 +2739,24 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.3494141, y: 0.21413445}
-      - {x: 0.34530166, y: 0.10825935}
-      - {x: 0.34275055, y: 0.0194273}
-      - {x: 0.34912682, y: 0.010322198}
-      - {x: 0.34216866, y: -0.043870687}
-      - {x: 0.3518247, y: -0.08517724}
-      - {x: 0.3449037, y: -0.27651405}
-      - {x: 0.3448696, y: -0.28489256}
-      - {x: 0.3442216, y: -0.3753264}
-      - {x: 0.35173059, y: -0.46810937}
-      - {x: 0.3523352, y: -0.5235019}
-      - {x: 0.34198463, y: -0.6107946}
-      - {x: 0.34512642, y: -0.67542136}
-      - {x: 0.347835, y: -0.79497755}
-      - {x: 0.35237223, y: -0.91608584}
+    - - {x: 0.41423965, y: 0.18172193}
+      - {x: 0.4060755, y: 0.18929139}
+      - {x: 0.4035244, y: 0.18554235}
+      - {x: 0.3977456, y: 0.18048881}
+      - {x: 0.40294218, y: 0.17491484}
+      - {x: 0.40699396, y: 0.15870869}
+      - {x: 0.40449518, y: 0.14171165}
+      - {x: 0.3975742, y: 0.059767485}
+      - {x: 0.40159178, y: -0.02153945}
+      - {x: 0.40094376, y: -0.19300485}
+      - {x: 0.40845275, y: -0.20880795}
+      - {x: 0.40905738, y: -0.32902575}
+      - {x: 0.40275824, y: -0.448731}
+      - {x: 0.40590003, y: -0.63895714}
+      - {x: 0.40860885, y: -0.7747196}
+      - {x: 0.40909463, y: -0.91203415}
       - {x: 0.96482646, y: -1.1203126}
-      - {x: 1.3146724, y: -0.11410916}
+      - {x: 1.2498468, y: -0.13031566}
 --- !u!4 &1162417619
 Transform:
   m_ObjectHideFlags: 0
@@ -2758,11 +2765,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162417616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.12, y: -2.203, z: -4.746887}
+  m_LocalPosition: {x: -3.898, y: -2.158, z: -4.746887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1182193964
 GameObject:
@@ -4235,7 +4242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f388ad23f9c91dd45a28fc2af90ac8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TarjetasRandom:
+  textos:
+    arrayTextos:
+    - Esta pregunta ya fue respondida
+  Tarjetas:
   - {fileID: 1329148507}
   - {fileID: 2107855111}
   - {fileID: 1578063993}
@@ -4264,18 +4274,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.2231319, y: 0.19481063}
-      - {x: 0.016260892, y: -0.040752262}
-      - {x: -0.14969802, y: 0.0006607622}
+    - - {x: 0.1698187, y: 0.18148232}
+      - {x: 0.04291752, y: -0.045195073}
+      - {x: -0.15858364, y: 0.013989076}
       - {x: -0.23150048, y: -0.2028482}
       - {x: -0.30453014, y: -0.4420371}
       - {x: -0.3450842, y: -0.59133774}
-      - {x: -0.35600245, y: -0.6048861}
-      - {x: -0.18185708, y: -0.73573005}
-      - {x: -0.2214976, y: -0.78226936}
-      - {x: 0.10303599, y: -0.8699719}
-      - {x: 1.1911876, y: -1.2473594}
-      - {x: 1.501895, y: -0.26744026}
+      - {x: -0.3337885, y: -0.56490123}
+      - {x: -0.15520045, y: -0.7001879}
+      - {x: -0.17262715, y: -0.78671217}
+      - {x: 0.10303599, y: -0.8966285}
+      - {x: 1.0312481, y: -1.2340311}
+      - {x: 1.3286271, y: -0.23634087}
 --- !u!4 &1854492136
 Transform:
   m_ObjectHideFlags: 0
@@ -4283,12 +4293,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854492133}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 0.26457676, z: -4.746887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.635, y: 0.247, z: -4.746887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867477680
 GameObject:
