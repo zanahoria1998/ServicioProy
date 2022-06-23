@@ -243,6 +243,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &23272288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +398,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &68019790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,6 +632,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &144584276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,6 +947,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &255858229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1208,8 +1212,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1916,6 +1920,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!1 &668287821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1970,7 +1975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Correcta
+    - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &668287824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2762,6 +2768,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &864188991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2911,6 +2918,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &875802852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3380,6 +3388,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!1 &1019321986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,6 +3444,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &1019321989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4346,6 +4356,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &1284516036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4891,6 +4902,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &1466597705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6932,6 +6944,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
 --- !u!114 &2050151025
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,21 +12,28 @@ public class UIDisplayer : MonoBehaviour, IInteractable
 
    public void Interact(DisplayImage actualDisplay){
 
+      ElimNull();
+      ListaVacia();
+      for(j=0; j<Tarjetas.Count; j++){
+         if (i==j){
+            Debug.Log("i=j");
+         }else{
+            Tarjetas[j]=null;
+         }
+      }
+      ElimNull();
+   }
+
+   public void ListaVacia(){
+      Debug.Log("Fun Lista Vacia");
       if(Tarjetas.Count == 0){
          Debug.Log("Ya se respondió");
          FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
       } 
       else{
-         ElimNull();
          i= Random.Range(0,Tarjetas.Count);
          Debug.Log("Random Lista i" + i);
-
          Tarjetas[i].SetActive(true);
-         for(j=0; j<Tarjetas.Count; j++){
-            Tarjetas[j]=null;
-         }
-         ElimNull();
-
       }
    }
 
@@ -35,7 +42,7 @@ public class UIDisplayer : MonoBehaviour, IInteractable
       foreach (GameObject tempObject in Tarjetas.ToList())
       {
          if(tempObject == null){
-            Debug.Log("else if");
+            Debug.Log("remove");
             Tarjetas.Remove(tempObject);
          }
       }

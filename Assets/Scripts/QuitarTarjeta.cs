@@ -27,11 +27,13 @@ public class QuitarTarjeta : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()){
 
             this.gameObject.SetActive(false);
+            Debug.Log("Primer If de quitar tarjeta");
         }
 
         if(displayImage.GetComponent<DisplayImage>().actualEstado == DisplayImage.Estado.normal){
 
             this.gameObject.SetActive(false);
+            Debug.Log("Segundo If de quitar tarjeta");
         }
     }
 }
