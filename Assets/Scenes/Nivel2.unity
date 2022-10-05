@@ -244,8 +244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -100.1}
-  m_SizeDelta: {x: 157.91, y: 37.97}
+  m_AnchoredPosition: {x: -1.0392177, y: -105.94}
+  m_SizeDelta: {x: 157.91, y: 26.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23272287
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &23272288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: 7.8}
-  m_SizeDelta: {x: 157.91, y: 25.9}
+  m_AnchoredPosition: {x: 0.6, y: -87.3}
+  m_SizeDelta: {x: 177.34, y: 25.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68019789
 MonoBehaviour:
@@ -434,8 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - Respuesta Correcta
 --- !u!114 &68019790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,156 +613,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2439373861470252370, guid: 4cf8416d2df1f5e4da7a88f1e28087d5, type: 3}
   m_PrefabInstance: {fileID: 1984856202}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &144584273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 144584274}
-  - component: {fileID: 144584278}
-  - component: {fileID: 144584277}
-  - component: {fileID: 144584276}
-  - component: {fileID: 144584275}
-  m_Layer: 5
-  m_Name: Opcion4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &144584274
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144584273}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99448377, y: 0.99448377, z: 1.3259779}
-  m_Children:
-  - {fileID: 1462154480}
-  m_Father: {fileID: 1578063997}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -67.3}
-  m_SizeDelta: {x: 157.91, y: 25.9}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &144584275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144584273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textos:
-    arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
---- !u!114 &144584276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144584273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 144584277}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 144584275}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &144584277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144584273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &144584278
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144584273}
-  m_CullTransparentMesh: 1
 --- !u!1001 &155661547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -856,86 +705,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteName: Comida
---- !u!1 &223319312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 223319313}
-  - component: {fileID: 223319315}
-  - component: {fileID: 223319314}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &223319313
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223319312}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4053527, y: 0.4053527, z: 0.4053527}
-  m_Children: []
-  m_Father: {fileID: 629333465}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.07, y: 1.1}
-  m_SizeDelta: {x: 371.35, y: 95.99}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &223319314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223319312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-  m_Color: {r: 0.9450981, g: 0.9294118, b: 0.9294118, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "c) Anotar las contrase\xF1as en una libreta o alg\xFAn dispositivo para
-    que no olvidarlas."
---- !u!222 &223319315
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223319312}
-  m_CullTransparentMesh: 1
 --- !u!4 &226421048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2439373861470252370, guid: 4cf8416d2df1f5e4da7a88f1e28087d5, type: 3}
@@ -975,8 +744,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.18, y: 76.9}
-  m_SizeDelta: {x: 1009.82, y: 538.67}
+  m_AnchoredPosition: {x: 4.3, y: 76.9}
+  m_SizeDelta: {x: 1031.11, y: 538.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235349297
 MonoBehaviour:
@@ -1005,14 +774,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\xBFEs recomendable tener una misma contrase\xF1a para todas las aplicaciones
-    y sitios web donde nos piden crear una cuenta?"
+  m_Text: El error humano es la principal causa de ataques e infecciones exitosas.
 --- !u!222 &235349298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1058,8 +826,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.039218, y: 43.2}
-  m_SizeDelta: {x: 157.91, y: 25.9}
+  m_AnchoredPosition: {x: 0.3, y: -51.9}
+  m_SizeDelta: {x: 176.85, y: 25.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255858228
 MonoBehaviour:
@@ -1076,7 +844,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &255858229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,7 +1009,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: a) 12345678
+  m_Text: a) III y IV
 --- !u!222 &305439921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1545,7 +1313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: c) qwertyui
+  m_Text: c) II y III
 --- !u!222 &369215757
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1777,7 +1545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "c) Gestor de contrase\xF1as."
+  m_Text: c) Redes Sociales.
 --- !u!222 &492498678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1902,306 +1670,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &629333464
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 629333465}
-  - component: {fileID: 629333468}
-  - component: {fileID: 629333467}
-  - component: {fileID: 629333466}
-  - component: {fileID: 629333469}
-  m_Layer: 5
-  m_Name: Opcion3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &629333465
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629333464}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99448377, y: 0.99448377, z: 1.3259779}
-  m_Children:
-  - {fileID: 223319313}
-  m_Father: {fileID: 1329148508}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3, y: -61.4}
-  m_SizeDelta: {x: 157.91, y: 36.41}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &629333466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629333464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 629333467}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 629333469}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &629333467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629333464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &629333468
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629333464}
-  m_CullTransparentMesh: 1
---- !u!114 &629333469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629333464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textos:
-    arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
---- !u!1 &668287821
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 668287822}
-  - component: {fileID: 668287826}
-  - component: {fileID: 668287825}
-  - component: {fileID: 668287824}
-  - component: {fileID: 668287823}
-  m_Layer: 5
-  m_Name: Opcion5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &668287822
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668287821}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99448377, y: 0.99448377, z: 1.3259779}
-  m_Children:
-  - {fileID: 1919455041}
-  m_Father: {fileID: 1578063997}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -104.8}
-  m_SizeDelta: {x: 157.91, y: 25.9}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &668287823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668287821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textos:
-    arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
---- !u!114 &668287824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668287821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 668287825}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 668287823}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &668287825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668287821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &668287826
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668287821}
-  m_CullTransparentMesh: 1
 --- !u!4 &672912662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7730981447167490931, guid: 88b0848166c75e14983b1caca898992f, type: 3}
@@ -2310,7 +1778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -57.3}
+  m_AnchoredPosition: {x: -1.0392177, y: -64.5}
   m_SizeDelta: {x: 157.91, y: 30.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705817980
@@ -2327,7 +1795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Correcta
+    - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &705817981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2492,8 +1961,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -14.8}
-  m_SizeDelta: {x: 157.91, y: 45.77}
+  m_AnchoredPosition: {x: -1.0392177, y: -85}
+  m_SizeDelta: {x: 157.91, y: 33.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724197323
 MonoBehaviour:
@@ -2687,236 +2156,6 @@ PolygonCollider2D:
       - {x: -3.5285058, y: -0.75168717}
       - {x: -3.3944204, y: -0.27702123}
       - {x: -3.2522247, y: 0.26375213}
---- !u!1 &760691438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 760691439}
-  - component: {fileID: 760691441}
-  - component: {fileID: 760691440}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &760691439
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760691438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4053527, y: 0.4053527, z: 0.4053527}
-  m_Children: []
-  m_Father: {fileID: 864188989}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.07, y: 1.1}
-  m_SizeDelta: {x: 371.35, y: 95.99}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &760691440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760691438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-  m_Color: {r: 0.9450981, g: 0.9294118, b: 0.9294118, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "d) Crear una contrase\xF1a base y solo ir cambiando el \xFAltimo car\xE1cter,
-    as\xED es f\xE1cil recordarlas y todas son distintas."
---- !u!222 &760691441
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760691438}
-  m_CullTransparentMesh: 1
---- !u!1 &864188988
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 864188989}
-  - component: {fileID: 864188993}
-  - component: {fileID: 864188992}
-  - component: {fileID: 864188991}
-  - component: {fileID: 864188990}
-  m_Layer: 5
-  m_Name: Opcion4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &864188989
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864188988}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99448377, y: 0.99448377, z: 1.3259779}
-  m_Children:
-  - {fileID: 760691439}
-  m_Father: {fileID: 1329148508}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4, y: -104.6}
-  m_SizeDelta: {x: 157.91, y: 36.41}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &864188990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864188988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textos:
-    arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
---- !u!114 &864188991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864188988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 864188992}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 864188990}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &864188992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864188988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &864188993
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864188988}
-  m_CullTransparentMesh: 1
 --- !u!1 &875802849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,7 +2193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -81.2}
+  m_AnchoredPosition: {x: -1.0392177, y: -69.9}
   m_SizeDelta: {x: 157.91, y: 45.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875802851
@@ -2971,8 +2210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - Respuesta Correcta
 --- !u!114 &875802852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3094,15 +2332,15 @@ RectTransform:
   m_GameObject: {fileID: 905191191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.18278277, y: 0.18278277, z: 0.18278277}
+  m_LocalScale: {x: 0.12527288, y: 0.12527288, z: 0.12527288}
   m_Children: []
   m_Father: {fileID: 1329148508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8, y: 94.5}
-  m_SizeDelta: {x: 903.7, y: 541.59}
+  m_AnchoredPosition: {x: 2.1, y: 66.3}
+  m_SizeDelta: {x: 1364.19, y: 1078.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905191193
 MonoBehaviour:
@@ -3126,19 +2364,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 90
+    m_FontSize: 120
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\xBFQue se recomienda hacer con las contrase\xF1as que creas para los
-    sitios web o aplicaciones?"
+  m_Text: "\xBFEntender la manera de navegar en internet evita totalmente que podamos
+    ser victimas de un mal uso de nuestra informaci\xF3n personal o que podamos infectarnos
+    de alg\xFAn virus?"
 --- !u!222 &905191194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3433,7 +2672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.039218, y: 30.7}
+  m_AnchoredPosition: {x: -1.039218, y: -24.9}
   m_SizeDelta: {x: 157.91, y: 35.085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016097438
@@ -3545,7 +2784,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!1 &1019321986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,8 +2822,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -29.8}
-  m_SizeDelta: {x: 157.91, y: 25.9}
+  m_AnchoredPosition: {x: 1.4414, y: -122.2}
+  m_SizeDelta: {x: 175.54, y: 25.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019321988
 MonoBehaviour:
@@ -3601,7 +2840,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &1019321989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3723,15 +2962,15 @@ RectTransform:
   m_GameObject: {fileID: 1020577403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16245253, y: 0.16245253, z: 0.16245253}
+  m_LocalScale: {x: 0.18234277, y: 0.18234277, z: 0.18234277}
   m_Children: []
   m_Father: {fileID: 2107855112}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.22, y: 69.8}
-  m_SizeDelta: {x: 1056.77, y: 631.33}
+  m_AnchoredPosition: {x: 8.9, y: 77.6}
+  m_SizeDelta: {x: 942.75, y: 631.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020577405
 MonoBehaviour:
@@ -3760,15 +2999,14 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Por seguridad es importante dar a conocer cada una de tus contrase\xF1as
-    a las personas cercanas a ti, de manera que si no las recuerdas siempre habr\xE1
-    alguien que pueda ayudarte."
+  m_Text: "\xBFLas redes sociales pueden ser usadas como una manera de recolecci\xF3n
+    de datos por los ciberdelincuentes?"
 --- !u!222 &1020577406
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4411,7 +3649,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\xBFQu\xE9 herramienta puede ayudarnos a no olvidar nuestras contrase\xF1as?"
+  m_Text: "\xBFCu\xE1l es el medio m\xE1s com\xFAn por el que las personas hacen
+    clic a enlaces no confiables?"
 --- !u!222 &1233493350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4497,8 +3736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - Respuesta Correcta
 --- !u!114 &1284516036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4742,7 +3980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "b) Nuestro bloc de notas en el tel\xE9fono."
+  m_Text: "b) Correo electr\xF3nico."
 --- !u!222 &1298639360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4784,8 +4022,6 @@ RectTransform:
   - {fileID: 905191192}
   - {fileID: 1016097437}
   - {fileID: 724197322}
-  - {fileID: 629333465}
-  - {fileID: 864188989}
   m_Father: {fileID: 1867477684}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4910,85 +4146,6 @@ MonoBehaviour:
   - {fileID: 1011471896}
   - {fileID: 732761922}
   - {fileID: 1854492133}
---- !u!1 &1462154479
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1462154480}
-  - component: {fileID: 1462154482}
-  - component: {fileID: 1462154481}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1462154480
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462154479}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.547079, y: 0.547079, z: 0.547079}
-  m_Children: []
-  m_Father: {fileID: 144584274}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.7, y: -0.7}
-  m_SizeDelta: {x: 247.85, y: 83.746}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1462154481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462154479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-  m_Color: {r: 0.9450981, g: 0.9294118, b: 0.9294118, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: d) hola123
---- !u!222 &1462154482
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462154479}
-  m_CullTransparentMesh: 1
 --- !u!1 &1466597702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5026,8 +4183,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0392177, y: -13.1}
-  m_SizeDelta: {x: 157.91, y: 37.1}
+  m_AnchoredPosition: {x: -1.0392177, y: -20.74}
+  m_SizeDelta: {x: 157.91, y: 28.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466597704
 MonoBehaviour:
@@ -5043,8 +4200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - Respuesta Correcta
 --- !u!114 &1466597705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5255,15 +4411,15 @@ RectTransform:
   m_GameObject: {fileID: 1521021888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1757423, y: 0.1757423, z: 0.1757423}
+  m_LocalScale: {x: 0.14049329, y: 0.14049329, z: 0.14049329}
   m_Children: []
   m_Father: {fileID: 1578063997}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.61, y: 101}
-  m_SizeDelta: {x: 970.91, y: 600}
+  m_AnchoredPosition: {x: 11.2, y: 55.1}
+  m_SizeDelta: {x: 1523.88, y: 1131.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521021890
 MonoBehaviour:
@@ -5292,13 +4448,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
-    m_Alignment: 4
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Identifica aquellas contrase\xF1as que son obvias para los ciberdelincuentes:"
+  m_Text: "Selecciona las opciones para reconocer una p\xE1gina segura:\r\nI) La
+    p\xE1gina tiene un certificado SSL o la versi\xF3n mejorada TLS a trav\xE9s de
+    un candado mostrado en la parte superior de la barra de navegaci\xF3n.\r\nII)
+    Comprobar la confiabilidad del sitio a trav\xE9s de herramientas como       https://global.sitesafety.trendmicro.com/
+    \r\nIII) Dise\xF1o atractivo de la p\xE1gina.\r\nIV) Si es recomendada por una
+    persona conocida o amigo.\r\n"
 --- !u!222 &1521021891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5341,7 +4502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.4, y: -1.7}
+  m_AnchoredPosition: {x: 2.4, y: 0}
   m_SizeDelta: {x: 379, y: 97.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533324516
@@ -5366,7 +4527,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -5377,8 +4538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "b) Elegir una contrase\xF1a con al menos ocho caracteres y una combinaci\xF3n
-    de: may\xFAsculas, min\xFAsculas, n\xFAmeros y s\xEDmbolos."
+  m_Text: b) Falso
 --- !u!222 &1533324517
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5421,7 +4581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7291, y: 0.000042319}
+  m_AnchoredPosition: {x: 2.7291, y: 0.9}
   m_SizeDelta: {x: 278.67, y: 69.405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550220893
@@ -5457,7 +4617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "d) Guardar las contrase\xF1as en el explorador de internet."
+  m_Text: d) Sitio Web.
 --- !u!222 &1550220894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5525,7 +4685,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 2
@@ -5536,8 +4696,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a) Generar una contrase\xF1a muy robusta para todas las cuentas y as\xED
-    evitas olvidarlas."
+  m_Text: a) Verdadero
 --- !u!222 &1571232123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5630,15 +4789,13 @@ RectTransform:
   - {fileID: 255858227}
   - {fileID: 68019788}
   - {fileID: 1019321987}
-  - {fileID: 144584274}
-  - {fileID: 668287822}
   m_Father: {fileID: 1867477684}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.9525}
-  m_SizeDelta: {x: 201, y: 299}
+  m_AnchoredPosition: {x: 9.65, y: -12.74}
+  m_SizeDelta: {x: 246.73, y: 316.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1618477442
 GameObject:
@@ -5677,7 +4834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.039218, y: -22.8}
+  m_AnchoredPosition: {x: -1.039218, y: -2}
   m_SizeDelta: {x: 157.91, y: 45.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618477444
@@ -5694,7 +4851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Correcta
+    - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &1618477445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5881,7 +5039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.7291, y: 0.000051975}
+  m_AnchoredPosition: {x: 2.7291, y: 0.9}
   m_SizeDelta: {x: 278.67, y: 67.815}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636995452
@@ -5917,7 +5075,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: a) Libreta o agenda personal.
+  m_Text: "a) Tel\xE9fono"
 --- !u!222 &1636995453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5996,7 +5154,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "b) contrase\xF1a"
+  m_Text: b) I y II
 --- !u!222 &1660699849
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6859,85 +6017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteName: Escritorio
---- !u!1 &1919455040
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1919455041}
-  - component: {fileID: 1919455043}
-  - component: {fileID: 1919455042}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1919455041
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919455040}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.547079, y: 0.547079, z: 0.547079}
-  m_Children: []
-  m_Father: {fileID: 668287822}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.7, y: -0.7}
-  m_SizeDelta: {x: 247.85, y: 83.746}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1919455042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919455040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-  m_Color: {r: 0.9450981, g: 0.9294118, b: 0.9294118, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: e) Todas las anteriores
---- !u!222 &1919455043
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919455040}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1984856202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7104,8 +6183,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.039218, y: 33.7}
-  m_SizeDelta: {x: 157.91, y: 37.1}
+  m_AnchoredPosition: {x: -1.039218, y: 26.96}
+  m_SizeDelta: {x: 157.91, y: 28.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050151024
 MonoBehaviour:
@@ -7122,7 +6201,7 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"El secreto que se transforma en poder\""
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &2050151025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7271,7 +6350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Respuesta Correcta
+    - Respuesta Incorrecta
+    - "Te invitamos leer el art\xEDculo \n\"Mundo Interconectado\""
 --- !u!114 &2100048356
 MonoBehaviour:
   m_ObjectHideFlags: 0

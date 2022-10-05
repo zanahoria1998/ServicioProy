@@ -6,8 +6,10 @@ using TMPro;
 public class ControlDialogo : MonoBehaviour
 {
 
+    public GameObject BotonSN;
+    public GameObject ImagenSN;
     public GameObject Prefabtrofeo;
-    private int puntos; //contador
+    public int puntos; //contador
     private Animator anim;
     private Queue <string> colaDialogos;
     Textos texto;
@@ -17,7 +19,7 @@ public class ControlDialogo : MonoBehaviour
     {
             anim.SetBool("Cartel", true);
             texto = textoObjeto;
-            Debug.Log("Llamada a ActivarCartel");
+            //Debug.Log("Llamada a ActivarCartel");
     }
 
     public void ActivaTexto()
@@ -31,10 +33,11 @@ public class ControlDialogo : MonoBehaviour
 
             if (textoGuardar == "Respuesta Correcta"){
                 Trofeo();
-                Debug.Log("if de texto wardar jala");
+                CierraCartel();
+                //Debug.Log("if de texto wardar jala");
             } 
             else if (textoGuardar == "Respuesta Incorrecta"){
-                Debug.Log("Respuesta incorecta, función");
+                //Debug.Log("Respuesta incorecta, función");
                 Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
             }
         }
@@ -52,65 +55,71 @@ public class ControlDialogo : MonoBehaviour
 
         string fraseActual = colaDialogos.Dequeue();
         textoPantalla.text = fraseActual;
-        Debug.Log("Llamada a SiguienteFrase");
+        //Debug.Log("Llamada a SiguienteFrase");
     }
 
     public void CierraCartel()
     {
-        //CartelPrueba=false;
         anim.SetBool("Cartel", false);
-        Debug.Log("Llamada a CierraCartel");
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        //puntos=trofeos.Length;
         puntos=0;
         anim = GetComponent<Animator>();
        
         colaDialogos = new Queue<string>();
-        //destruir= GameObject.FindGameObjectWithTag("Tarjeta").GetComponent<QuitarTarjeta>();
     }
 
     void RevisionPuntaje(){
 
 
-        if(puntos == 0){ //puntaje = 0
+        if(puntos == 1){ //puntaje = 0
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 68, 0), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
-        else if(puntos == 1){ // puntaje = 1
+        else if(puntos == 2){ // puntaje = 1
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 35, 3), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
 
-        else if(puntos == 2){ //Puntaje = 2
+        else if(puntos == 3){ //Puntaje = 2
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 1, 3), transform.rotation) as GameObject;
-                                                                    //129,-32,0
-                                                                    //129,-65,0
+                                                                    
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
-        else if(puntos == 3){ // puntaje = 1
+        else if(puntos == 4){ // puntaje = 3
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129,-32,0), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
         }
-        else if(puntos == 4){ // puntaje = 1
+        else if(puntos == 5){ // puntaje = 4
             GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129,-65,0), transform.rotation) as GameObject;
             trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);
             Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+
+            //Debug.Log("Se han juntado los 5 trofeos");
+            //FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
         }
     }
 
 
     public void Trofeo(){
-        Debug.Log("Esto es puntos" + puntos);
-        RevisionPuntaje();
         puntos++;
+        RevisionPuntaje();
+        if (puntos == 5){
+            ButtonSN();
+        } 
+    }
+
+    public void ButtonSN(){
+        ImagenSN.SetActive(true);
+        BotonSN.SetActive(true);
     }
 }

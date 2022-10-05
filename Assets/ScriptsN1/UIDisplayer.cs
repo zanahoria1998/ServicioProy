@@ -16,7 +16,7 @@ public class UIDisplayer : MonoBehaviour, IInteractable
       ListaVacia();
       for(j=0; j<Tarjetas.Count; j++){
          if (i==j){
-            Debug.Log("i=j");
+            //Debug.Log("i=j");
          }else{
             Tarjetas[j]=null;
          }
@@ -25,24 +25,24 @@ public class UIDisplayer : MonoBehaviour, IInteractable
    }
 
    public void ListaVacia(){
-      Debug.Log("Fun Lista Vacia");
+      //Debug.Log("Fun Lista Vacia");
       if(Tarjetas.Count == 0){
-         Debug.Log("Ya se respondió");
+         //Debug.Log("Ya se respondió");
          FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
       } 
       else{
          i= Random.Range(0,Tarjetas.Count);
-         Debug.Log("Random Lista i" + i);
+         //Debug.Log("Random Lista i" + i);
          Tarjetas[i].SetActive(true);
       }
    }
 
    public void ElimNull(){
-      Debug.Log("Foreach");
+      //Debug.Log("Foreach");
       foreach (GameObject tempObject in Tarjetas.ToList())
       {
          if(tempObject == null){
-            Debug.Log("remove");
+            //Debug.Log("remove");
             Tarjetas.Remove(tempObject);
          }
       }
