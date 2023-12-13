@@ -29,7 +29,7 @@ public class ButtonHandlerN2 : MonoBehaviour
       if(actualDisplay.actualEstado == DisplayImageN2.Estado.zoom){
 
          GameObject.Find("DisplayImage").GetComponent<DisplayImageN2>().actualEstado = DisplayImageN2.Estado.normal;
-         var zoomInObjects = FindObjectsOfType<ZoomInObject>();
+         var zoomInObjects = FindObjectsOfType<ZoomInObjectN2>();
          foreach(var zoomInObject in zoomInObjects)
          {
             zoomInObject.gameObject.layer = 0;
