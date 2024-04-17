@@ -3148,7 +3148,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChangeView
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7730981447167490933, guid: 88b0848166c75e14983b1caca898992f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 88b0848166c75e14983b1caca898992f, type: 3}
 --- !u!4 &834746884 stripped
 Transform:
@@ -7342,7 +7343,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChangeView
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7730981447167490933, guid: 88b0848166c75e14983b1caca898992f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 88b0848166c75e14983b1caca898992f, type: 3}
 --- !u!4 &1844215315 stripped
 Transform:
