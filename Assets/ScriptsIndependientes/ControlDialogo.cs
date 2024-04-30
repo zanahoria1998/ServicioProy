@@ -8,8 +8,11 @@ public class ControlDialogo : MonoBehaviour
 
     public GameObject BotonSN;
     public GameObject ImagenSN;
+    public GameObject BotonNP;
+    public GameObject ImagenNP;
     public GameObject Prefabtrofeo;
     public int puntos; //contador
+    public int puntosNegativos; //contador
     private Animator anim;
     private Queue <string> colaDialogos;
     Textos texto;
@@ -37,8 +40,13 @@ public class ControlDialogo : MonoBehaviour
                 //Debug.Log("if de texto wardar jala");
             } 
             else if (textoGuardar == "Respuesta Incorrecta"){
-                //Debug.Log("Respuesta incorecta, función");
-                Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+                Derrota();
+                CierraCartel();
+                //Debug.Log("Respuesta incorrecta, función");
+                //Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+            }
+            else if(textoGuardar == "Esta pregunta ya fue respondida"){
+                CierraCartel();
             }
         }
 
@@ -118,8 +126,57 @@ public class ControlDialogo : MonoBehaviour
         } 
     }
 
+    void RevisionPuntajeNegativo(){
+
+
+        if(puntosNegativos == 1){ //puntaje = 0
+            /*GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 68, 0), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);*/
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+        }
+
+        else if(puntosNegativos == 2){ // puntaje = 1
+            /*GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 35, 3), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);*/
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+        }
+
+        else if(puntosNegativos == 3){ //Puntaje = 2
+            /*GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129, 1, 3), transform.rotation) as GameObject;                                                  
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);*/
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+        }
+        else if(puntosNegativos == 4){ // puntaje = 3
+            /*GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129,-32,0), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);*/
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+        }
+        else if(puntosNegativos == 5){ // puntaje = 4
+            /*GameObject trofeo = Instantiate(Prefabtrofeo, new Vector3(129,-65,0), transform.rotation) as GameObject;
+            trofeo.transform.SetParent(GameObject.FindGameObjectWithTag("ICanva").transform, false);*/
+            Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
+
+            //Debug.Log("Se han juntado los 5 trofeos");
+            //FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
+        }
+    }
+
+
+    public void Derrota(){
+        puntosNegativos++;
+        RevisionPuntajeNegativo();
+        if (puntosNegativos <= 5){
+            NivelPerdido();
+        } 
+    }
+
     public void ButtonSN(){
         ImagenSN.SetActive(true);
         BotonSN.SetActive(true);
+    }
+
+     public void NivelPerdido(){
+        ImagenNP.SetActive(true);
+        BotonNP.SetActive(true);
     }
 }

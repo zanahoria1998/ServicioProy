@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class Textos{
 
-    [TextArea (2,6)] //las cajas de tecto ocupaan como minimo 2 y como maximo 6 lineas
+    [TextArea (2,6)] //las cajas de texto ocupaan como minimo 2 y como maximo 6 lineas
     public string[] arrayTextos; //arreglo de textos
     //GameObject[ ] carsInTheScene = GameObject.FindGameObjectsWithTag("car");
     
