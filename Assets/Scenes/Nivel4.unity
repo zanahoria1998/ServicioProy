@@ -256,11 +256,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &15246294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,11 +406,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &18950976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,10 +556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Correcta
+  i: 0
 --- !u!114 &73160216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,10 +706,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Correcta
+  i: 0
 --- !u!114 &77816532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1123,11 +1121,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &102102327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,9 +1589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos: []
+  i: 0
 --- !u!114 &231480827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,11 +2030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
-    - Respuesta Incorecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+    - Respuesta Incorrecta
+  i: 0
 --- !u!114 &299235863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2464,11 +2460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &403878412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3471,6 +3466,139 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688083283}
   m_CullTransparentMesh: 1
+--- !u!1 &701887488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701887489}
+  - component: {fileID: 701887492}
+  - component: {fileID: 701887491}
+  - component: {fileID: 701887490}
+  m_Layer: 5
+  m_Name: ButtonReiniciaNivel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &701887489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701887488}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -71.99993}
+  m_LocalScale: {x: 1.9143, y: 1.9143, z: 1.9143}
+  m_Children:
+  - {fileID: 1232223462}
+  m_Father: {fileID: 1907032474}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -253.87569, y: -137.39154}
+  m_SizeDelta: {x: 102.39, y: 59.699}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &701887490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701887488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 701887491}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &701887491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701887488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 76c1d44c68a0f51409193ede787cf90a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &701887492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701887488}
+  m_CullTransparentMesh: 1
 --- !u!1 &716126582
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,11 +3651,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &716126585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3674,11 +3801,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &718003140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3926,11 +4052,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &837675689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4156,11 +4281,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &893251108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4400,6 +4524,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &934640939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934640940}
+  - component: {fileID: 934640942}
+  - component: {fileID: 934640941}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &934640940
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934640939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4825739, y: 1.4825739, z: 1.4825739}
+  m_Children: []
+  m_Father: {fileID: 1098335191}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 6.4, y: 64.2}
+  m_SizeDelta: {x: 271.89, y: 103.82}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &934640941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934640939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Lo siento, has respondido mal una pregunta y eso no te permitir\xE1 avanzar
+    de nivel, te invitamos a leer el art\xEDculo \"...\""
+--- !u!222 &934640942
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934640939}
+  m_CullTransparentMesh: 1
 --- !u!1001 &942817564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4720,11 +4924,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &977594005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4912,6 +5115,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 201, y: 299}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1098335190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1098335191}
+  - component: {fileID: 1098335193}
+  - component: {fileID: 1098335192}
+  m_Layer: 5
+  m_Name: NivelPerdido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1098335191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098335190}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -71.99993}
+  m_LocalScale: {x: 1.5561, y: 1.5561, z: 1.5561}
+  m_Children:
+  - {fileID: 934640940}
+  m_Father: {fileID: 1907032474}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -37.52382, y: -0.9663006}
+  m_SizeDelta: {x: 430.54, y: 271.43}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1098335192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098335190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 04a4919849e292547a44d92e67b5be25, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1098335193
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098335190}
+  m_CullTransparentMesh: 1
 --- !u!1 &1099657892
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,6 +5432,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162194257}
   m_CullTransparentMesh: 1
+--- !u!1 &1232223461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1232223462}
+  - component: {fileID: 1232223464}
+  - component: {fileID: 1232223463}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1232223462
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232223461}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 701887489}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 35, y: 4.699999}
+  m_SizeDelta: {x: -28.65, y: -41.47}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1232223463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232223461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_FontSize: 10
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Reiniciar Nivel
+--- !u!222 &1232223464
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232223461}
+  m_CullTransparentMesh: 1
 --- !u!1 &1242549920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,11 +5563,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &1242549923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5413,10 +5770,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Correcta
+  i: 0
 --- !u!114 &1290466781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6355,10 +6712,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Correcta
+  i: 0
 --- !u!114 &1600243493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6859,11 +7216,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &1682131562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7010,10 +7366,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Correcta
+  i: 0
 --- !u!114 &1695997419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7443,8 +7799,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BotonSN: {fileID: 231480824}
   ImagenSN: {fileID: 965189076}
+  BotonNP: {fileID: 701887488}
+  ImagenNP: {fileID: 1098335190}
   Prefabtrofeo: {fileID: 2735723283418350789, guid: a87485497c7f4c449b049ec9c74e350a, type: 3}
   puntos: 0
+  puntosNegativos: 0
   textoPantalla: {fileID: 1887384965}
 --- !u!114 &1779321292
 MonoBehaviour:
@@ -7522,7 +7881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c364edc262a2f84c95e9834488ca50d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04a4919849e292547a44d92e67b5be25, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7750,11 +8109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &1813168255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8111,11 +8469,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &1865685341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8262,11 +8619,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
+  i: 0
 --- !u!114 &1878869278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8617,6 +8973,8 @@ RectTransform:
   - {fileID: 1779321289}
   - {fileID: 965189077}
   - {fileID: 231480825}
+  - {fileID: 1098335191}
+  - {fileID: 701887489}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
