@@ -28,7 +28,7 @@ public class UIDisplayerN4 : MonoBehaviour, IInteractableN4
       Debug.Log("Fun Lista Vacia");
       if(Tarjetas.Count == 0){
          Debug.Log("Ya se respondió");
-         FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
+         FindObjectOfType<ControlDialogoN4>().ActivarCartel(textos);
       } 
       else{
          i= Random.Range(0,Tarjetas.Count);

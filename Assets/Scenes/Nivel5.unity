@@ -511,9 +511,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 237628276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -729,7 +729,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 237628278}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -836,9 +836,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 328528141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -1104,7 +1104,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 328528143}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 401161565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -1287,7 +1287,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 401161567}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 420055602}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -1437,7 +1437,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 420055604}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -1732,15 +1732,15 @@ RectTransform:
   m_GameObject: {fileID: 497984614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4825739, y: 1.4825739, z: 1.4825739}
+  m_LocalScale: {x: 1.3307139, y: 1.3307139, z: 1.3307139}
   m_Children: []
   m_Father: {fileID: 647363081}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.4, y: 64.2}
-  m_SizeDelta: {x: 271.89, y: 103.82}
+  m_AnchoredPosition: {x: 1.1, y: 36.49}
+  m_SizeDelta: {x: 271.89, y: 117.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497984616
 MonoBehaviour:
@@ -1763,7 +1763,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
@@ -1776,7 +1776,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Lo siento, has respondido mal una pregunta y eso no te permitir\xE1 avanzar
-    de nivel, te invitamos a leer el art\xEDculo \"...\""
+    de nivel, te invitamos a leer el art\xEDculo:\n\"La gran wi-fi\""
 --- !u!222 &497984617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1834,7 +1834,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 546294143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -1886,7 +1886,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 546294145}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -1993,9 +1993,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2063,7 +2063,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 572691450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -2115,7 +2115,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 572691452}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -2213,7 +2213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 595808685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -2265,7 +2265,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 595808687}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -2696,9 +2696,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2867,7 +2867,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 695269975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -2919,7 +2919,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 695269977}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -3096,7 +3096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 709180867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -3148,7 +3148,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 709180869}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -3348,7 +3348,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -3427,7 +3427,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -3506,9 +3506,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -3663,9 +3663,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -3826,7 +3826,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -3905,7 +3905,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -4268,7 +4268,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1046741517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -4320,7 +4320,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1046741519}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -4427,7 +4427,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -4497,7 +4497,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1058160273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -4548,13 +4548,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1058160275}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: SiguienteNivel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4734,7 +4734,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -4814,7 +4814,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -5214,7 +5214,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269131371}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -5266,7 +5266,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1269131373}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -5373,9 +5373,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -5444,7 +5444,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288929145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -5496,7 +5496,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1288929147}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -5603,9 +5603,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -5682,7 +5682,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -5753,7 +5753,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1348158166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -5805,7 +5805,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1348158168}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -5912,7 +5912,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -5991,7 +5991,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -6062,7 +6062,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1386542841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -6114,7 +6114,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1386542843}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -6223,15 +6223,15 @@ RectTransform:
   m_GameObject: {fileID: 1394870816}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12527288, y: 0.12527288, z: 0.12527288}
+  m_LocalScale: {x: 0.10661562, y: 0.10661562, z: 0.10661562}
   m_Children: []
   m_Father: {fileID: 1584748454}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.4, y: 81.4}
-  m_SizeDelta: {x: 1364.19, y: 1078.79}
+  m_AnchoredPosition: {x: 4.1, y: 82.2}
+  m_SizeDelta: {x: 1627.28, y: 1078.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394870818
 MonoBehaviour:
@@ -6254,13 +6254,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 120
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6577,9 +6577,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -7195,7 +7195,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -7274,9 +7274,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 232
@@ -7401,8 +7401,8 @@ GameObject:
   - component: {fileID: 1828704703}
   - component: {fileID: 1828704702}
   - component: {fileID: 1828704701}
-  - component: {fileID: 1828704700}
   - component: {fileID: 1828704699}
+  - component: {fileID: 1828704700}
   m_Layer: 5
   m_Name: ImagenDialogo
   m_TagString: ICanva
@@ -7458,7 +7458,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1828704697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d1f796fec30c824c8b2e698d914c992, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b1afa3ab3be4404fb1c4495ad1c2f72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BotonSN: {fileID: 1058160273}
@@ -7466,7 +7466,7 @@ MonoBehaviour:
   BotonNP: {fileID: 1235501612}
   ImagenNP: {fileID: 647363080}
   Prefabtrofeo: {fileID: 2735723283418350789, guid: a87485497c7f4c449b049ec9c74e350a, type: 3}
-  puntos: 0
+  puntosN5: 0
   puntosNegativos: 0
   textoPantalla: {fileID: 4558310}
 --- !u!114 &1828704701
@@ -7514,7 +7514,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1828704700}
-        m_TargetAssemblyTypeName: ControlDialogo, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDialogoN5, Assembly-CSharp
         m_MethodName: SiguienteFrase
         m_Mode: 1
         m_Arguments:
@@ -7656,15 +7656,15 @@ RectTransform:
   m_GameObject: {fileID: 1857479570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.18234277, y: 0.18234277, z: 0.18234277}
+  m_LocalScale: {x: 0.14925668, y: 0.14925668, z: 0.14925668}
   m_Children: []
   m_Father: {fileID: 475612897}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.9, y: 80.3}
-  m_SizeDelta: {x: 942.75, y: 631.33}
+  m_AnchoredPosition: {x: 7.7, y: 80.3}
+  m_SizeDelta: {x: 1168.03, y: 646.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1857479572
 MonoBehaviour:
@@ -7687,9 +7687,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 75
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -7777,8 +7777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 133.1, y: -84}
-  m_SizeDelta: {x: 85.16, y: 19.01}
+  m_AnchoredPosition: {x: 138.47, y: -84}
+  m_SizeDelta: {x: 99.45, y: 19.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891523485
 MonoBehaviour:
@@ -7801,7 +7801,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
@@ -7871,7 +7871,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1892464103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -7923,7 +7923,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1892464105}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8021,7 +8021,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1902152420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -8073,7 +8073,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1902152422}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8180,7 +8180,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -8250,7 +8250,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907724037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -8302,7 +8302,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1907724039}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8568,7 +8568,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1953587722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -8620,7 +8620,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1953587724}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8900,7 +8900,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958912090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -8952,7 +8952,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1958912092}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -9050,7 +9050,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2027546802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 323ca664fcdb8a24c87818e541f9bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -9102,7 +9102,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2027546804}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN5, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -9209,9 +9209,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40

@@ -28,7 +28,7 @@ public class UIDisplayerN5 : MonoBehaviour, IInteractableN5
       Debug.Log("Fun Lista Vacia");
       if(Tarjetas.Count == 0){
          Debug.Log("Ya se respondió");
-         FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
+         FindObjectOfType<ControlDialogoN5>().ActivarCartel(textos);
       } 
       else{
          i= Random.Range(0,Tarjetas.Count);

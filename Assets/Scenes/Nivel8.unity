@@ -285,13 +285,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 128463157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &128463160
 MonoBehaviour:
@@ -338,7 +337,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 128463159}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -521,13 +520,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 152671871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &152671874
 MonoBehaviour:
@@ -574,7 +572,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 152671873}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -807,7 +805,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -877,7 +875,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 214971105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -929,7 +927,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 214971107}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -1415,9 +1413,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -1724,7 +1722,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -1803,7 +1801,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -1873,13 +1871,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 581104807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &581104810
 MonoBehaviour:
@@ -1926,7 +1923,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 581104809}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -2318,7 +2315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2492,7 +2489,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 721610175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -2544,7 +2541,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 721610177}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -2743,13 +2740,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 775777586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &775777589
 MonoBehaviour:
@@ -2796,7 +2792,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 775777588}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -2903,9 +2899,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2973,7 +2969,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 782978862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -3025,7 +3021,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 782978864}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -3108,8 +3104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 133.1, y: -84}
-  m_SizeDelta: {x: 85.16, y: 19.01}
+  m_AnchoredPosition: {x: 138.47, y: -84}
+  m_SizeDelta: {x: 99.45, y: 19.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784447498
 MonoBehaviour:
@@ -3132,7 +3128,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
@@ -3211,9 +3207,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -3374,13 +3370,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 799024845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &799024848
 MonoBehaviour:
@@ -3427,7 +3422,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 799024847}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -3534,7 +3529,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -3605,13 +3600,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 880036876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &880036879
 MonoBehaviour:
@@ -3658,7 +3652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 880036878}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -3860,13 +3854,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 940193751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &940193754
 MonoBehaviour:
@@ -3913,7 +3906,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 940193753}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -4109,13 +4102,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 955626226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &955626229
 MonoBehaviour:
@@ -4162,7 +4154,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 955626228}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -4269,7 +4261,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -4348,7 +4340,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -4419,7 +4411,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1062169511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -4471,7 +4463,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1062169513}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -4578,7 +4570,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -4943,13 +4935,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142119461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1142119464
 MonoBehaviour:
@@ -4996,7 +4987,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1142119463}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -5103,7 +5094,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -5280,7 +5271,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -5499,7 +5490,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -5570,13 +5561,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1324669994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1324669997
 MonoBehaviour:
@@ -5623,7 +5613,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1324669996}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -5721,13 +5711,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1330216354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1330216357
 MonoBehaviour:
@@ -5774,7 +5763,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1330216356}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -6006,7 +5995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367780283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -6058,7 +6047,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1367780285}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -6355,15 +6344,15 @@ RectTransform:
   m_GameObject: {fileID: 1392090347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12527288, y: 0.12527288, z: 0.12527288}
+  m_LocalScale: {x: 0.104710594, y: 0.104710594, z: 0.104710594}
   m_Children: []
   m_Father: {fileID: 642761657}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.4, y: 81.4}
-  m_SizeDelta: {x: 1364.19, y: 1078.79}
+  m_AnchoredPosition: {x: 2, y: 83.2}
+  m_SizeDelta: {x: 1602.4, y: 943.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392090349
 MonoBehaviour:
@@ -6386,13 +6375,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 120
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6435,7 +6424,7 @@ RectTransform:
   m_GameObject: {fileID: 1408118565}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 0.93}
   m_Children: []
   m_Father: {fileID: 1518118453}
   m_RootOrder: 0
@@ -6443,7 +6432,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -5, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408118567
 MonoBehaviour:
@@ -6466,7 +6455,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 24
     m_FontStyle: 3
     m_BestFit: 0
@@ -6514,15 +6503,15 @@ RectTransform:
   m_GameObject: {fileID: 1419516438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.18234277, y: 0.18234277, z: 0.18234277}
+  m_LocalScale: {x: 0.15499136, y: 0.15499136, z: 0.15499136}
   m_Children: []
   m_Father: {fileID: 641608767}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.9, y: 80.3}
-  m_SizeDelta: {x: 942.75, y: 631.33}
+  m_AnchoredPosition: {x: 1.37, y: 86.7}
+  m_SizeDelta: {x: 1045.57, y: 631.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419516440
 MonoBehaviour:
@@ -6545,9 +6534,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 75
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -6626,9 +6615,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 30
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -6681,8 +6670,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.2887, y: 107.2}
-  m_SizeDelta: {x: 1317.6, y: 310.75}
+  m_AnchoredPosition: {x: -3.2887, y: 101.06}
+  m_SizeDelta: {x: 1317.6, y: 398.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504949864
 MonoBehaviour:
@@ -6705,9 +6694,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -6775,7 +6764,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1518118452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
@@ -6826,13 +6815,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1518118454}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: SiguienteNivel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6902,15 +6891,15 @@ RectTransform:
   m_GameObject: {fileID: 1520602937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.18896177, y: 0.18896177, z: 0.18896177}
+  m_LocalScale: {x: 0.12131845, y: 0.12738438, z: 0.12131845}
   m_Children: []
   m_Father: {fileID: 1096950198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.8811, y: 88.5}
-  m_SizeDelta: {x: 930.09, y: 414.21}
+  m_AnchoredPosition: {x: 2, y: 87}
+  m_SizeDelta: {x: 1331.11, y: 635.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520602939
 MonoBehaviour:
@@ -6933,9 +6922,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -7213,9 +7202,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -7517,7 +7506,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
@@ -7712,15 +7701,15 @@ RectTransform:
   m_GameObject: {fileID: 1648601947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4825739, y: 1.4825739, z: 1.4825739}
+  m_LocalScale: {x: 1.2008848, y: 1.2008848, z: 1.2008848}
   m_Children: []
   m_Father: {fileID: 1121693669}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.4, y: 64.2}
-  m_SizeDelta: {x: 271.89, y: 103.82}
+  m_AnchoredPosition: {x: 0.7, y: 37.5}
+  m_SizeDelta: {x: 270.54, y: 124.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648601949
 MonoBehaviour:
@@ -7743,7 +7732,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
@@ -7756,7 +7745,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Lo siento, has respondido mal una pregunta y eso no te permitir\xE1 avanzar
-    de nivel, te invitamos a leer el art\xEDculo \"...\""
+    de nivel, te invitamos a leer el art\xEDculo:\n \"...\""
 --- !u!222 &1648601950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7814,13 +7803,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1672043023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1672043026
 MonoBehaviour:
@@ -7867,7 +7855,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1672043025}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8120,9 +8108,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -8274,9 +8262,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 90
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 200
@@ -8344,13 +8332,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1823952854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1823952857
 MonoBehaviour:
@@ -8397,7 +8384,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1823952856}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8495,13 +8482,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1862327417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1862327420
 MonoBehaviour:
@@ -8548,7 +8534,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1862327419}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8646,13 +8632,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1887186662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52044ce1ecdcbbd488dba7320864ba2c, type: 3}
+  m_Script: {fileID: 11500000, guid: b595960aa9010394d86592b5c7ae6acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
     - Respuesta Incorrecta
-    - "Te invitamos leer el art\xEDculo \n\"Ingenier\xEDa Social-Una sociedad Ingenua\""
   i: 0
 --- !u!114 &1887186665
 MonoBehaviour:
@@ -8699,7 +8684,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1887186664}
-        m_TargetAssemblyTypeName: ObjetoInteractable, Assembly-CSharp
+        m_TargetAssemblyTypeName: ObjetoInteractableN8, Assembly-CSharp
         m_MethodName: OnMouseDown
         m_Mode: 1
         m_Arguments:
@@ -8936,9 +8921,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 21
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -9116,8 +9101,8 @@ GameObject:
   - component: {fileID: 2083368733}
   - component: {fileID: 2083368732}
   - component: {fileID: 2083368731}
-  - component: {fileID: 2083368730}
   - component: {fileID: 2083368729}
+  - component: {fileID: 2083368730}
   m_Layer: 5
   m_Name: ImagenDialogo
   m_TagString: ICanva
@@ -9173,7 +9158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083368727}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d1f796fec30c824c8b2e698d914c992, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f810d584808bdd4591a4627dce98cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BotonSN: {fileID: 1518118452}
@@ -9181,7 +9166,7 @@ MonoBehaviour:
   BotonNP: {fileID: 1379893008}
   ImagenNP: {fileID: 1121693668}
   Prefabtrofeo: {fileID: 2735723283418350789, guid: a87485497c7f4c449b049ec9c74e350a, type: 3}
-  puntos: 0
+  puntosN8: 0
   puntosNegativos: 0
   textoPantalla: {fileID: 1363917004}
 --- !u!114 &2083368731
@@ -9229,7 +9214,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2083368730}
-        m_TargetAssemblyTypeName: ControlDialogo, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlDialogoN8, Assembly-CSharp
         m_MethodName: SiguienteFrase
         m_Mode: 1
         m_Arguments:
@@ -9336,9 +9321,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01ee832e4d215f64e97188ef5bea8f6e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 20
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 232

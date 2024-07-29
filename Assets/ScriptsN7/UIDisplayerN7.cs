@@ -28,7 +28,7 @@ public class UIDisplayerN7 : MonoBehaviour, IInteractableN7
       Debug.Log("Fun Lista Vacia");
       if(Tarjetas.Count == 0){
          Debug.Log("Ya se respondió");
-         FindObjectOfType<ControlDialogo>().ActivarCartel(textos);
+         FindObjectOfType<ControlDialogoN7>().ActivarCartel(textos);
       } 
       else{
          i= Random.Range(0,Tarjetas.Count);
