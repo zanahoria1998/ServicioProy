@@ -25,10 +25,13 @@ public class Menu : MonoBehaviour
     private int N7;
     private int N8;
     private int N9;
+
+    //public Textos textos;//Liga el script de Textos a este script
     //public ControlDialogo punto;
 
     void Start(){
 
+        //FindObjectOfType<ControlDialogoMenu>().ActivarCartel(textos);
         //PlayerPrefs.DeleteAll();
         N1 = PlayerPrefs.GetInt("VariablePuntos", 0);
         N2 = PlayerPrefs.GetInt("VariablePuntosN2", 0);
@@ -58,6 +61,7 @@ public class Menu : MonoBehaviour
             Debug.Log("Prueba=" + N1);
             Mal.interactable = true;
             //So.interactable = true;
+            //De lo contrario muetsra el mensaje de nivel perdido
             
         }
 

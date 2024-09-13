@@ -11,6 +11,7 @@ public class ControlDialogo : MonoBehaviour
     public GameObject BotonNP;
     public GameObject ImagenNP;
     public GameObject Prefabtrofeo;
+    //private GameObject botonPausa;
     public int puntosN1; //contador
     public int puntosNegativos; //contador
     private Animator anim;
@@ -87,6 +88,10 @@ public class ControlDialogo : MonoBehaviour
         if (puntosN1 == 5){
             ButtonSN();
         } 
+        /*else if (puntosNegativos <= 5){
+            NivelPerdido();
+            //PlayerPrefs.DeleteKey("VariablePuntos");
+        } */
 
      }
 
@@ -129,6 +134,7 @@ public class ControlDialogo : MonoBehaviour
 
     public void Trofeo(){
         puntosN1++;
+        Debug.Log("Puntos" + puntosN1);
         RevisionPuntaje();
         PlayerPrefs.SetInt("VariablePuntos", puntosN1);
         /*if (puntosN1 == 5){
@@ -177,12 +183,14 @@ public class ControlDialogo : MonoBehaviour
         RevisionPuntajeNegativo();
         if (puntosNegativos <= 5){
             NivelPerdido();
+            //PlayerPrefs.DeleteKey("VariablePuntos");
         } 
     }
 
     public void ButtonSN(){
         ImagenSN.SetActive(true);
         BotonSN.SetActive(true);
+        //botonPausa.SetActive(false);
     }
 
      public void NivelPerdido(){
