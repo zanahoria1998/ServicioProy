@@ -188,12 +188,15 @@ public class ControlDialogo : MonoBehaviour
     }
 
     public void ButtonSN(){
+        Time.timeScale = 0f;
+        Debug.Log("PausaReloj");
         ImagenSN.SetActive(true);
         BotonSN.SetActive(true);
         //botonPausa.SetActive(false);
     }
 
      public void NivelPerdido(){
+        Time.timeScale = 0f;
         ImagenNP.SetActive(true);
         BotonNP.SetActive(true);
     }

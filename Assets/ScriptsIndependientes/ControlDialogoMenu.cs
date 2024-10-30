@@ -5,73 +5,74 @@ using TMPro;
 
 public class ControlDialogoMenu : MonoBehaviour
 {
-
     private Animator anim;
-    private Queue <string> colaDialogos;
+    private List<string> listaDialogos;
+    private int indiceActual; // Índice para la posición actual en la lista de diálogos
+    public GameObject SiguienteFraseB;
+    public GameObject AnteriorFraseB;
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
-    public void ActivarCartel(Textos textoObjeto)//TextoObjeto es el texto que se le pasa en el script (ObjetoInteractable)
+    void Start()
     {
-            anim.SetBool("Cartel", true);
-            texto = textoObjeto;
-            //Debug.Log("Llamada a ActivarCartel");
+        anim = GetComponent<Animator>();
+        listaDialogos = new List<string>();
+    }
+
+    public void ActivarCartel(Textos textoObjeto)
+    {
+        anim.SetBool("Cartel", true);
+        texto = textoObjeto;
+        SiguienteFraseB.SetActive(true);
+        AnteriorFraseB.SetActive(true);
     }
 
     public void ActivaTexto()
     {
-
-        colaDialogos.Clear();
-        foreach (string textoGuardar in texto.arrayTextos) //recorre el texto dentro del array
+        listaDialogos.Clear();
+        foreach (string textoGuardar in texto.arrayTextos)
         {
-
-            colaDialogos.Enqueue(textoGuardar); //cada palabra del array que se guarda en la variable textoGuardar, la agrega a la cola
-
-            /*if (textoGuardar == "Respuesta Correcta"){
-                Trofeo();
-                CierraCartel();
-                //Debug.Log("if de texto wardar jala");
-            } 
-            else if (textoGuardar == "Respuesta Incorrecta"){
-                Derrota();
-                CierraCartel();
-                //Debug.Log("Respuesta incorrecta, función");
-                //Destroy(GameObject.FindGameObjectWithTag("Tarjeta"));
-            }
-            else if(textoGuardar == "Esta pregunta ya fue respondida"){
-                CierraCartel();
-            }*/
+            listaDialogos.Add(textoGuardar);
         }
 
-        SiguienteFrase();
+        indiceActual = 0; // Empezamos desde el primer texto
+        MostrarFraseActual();
+    }
+
+    public void MostrarFraseActual()
+    {
+        if (indiceActual >= 0 && indiceActual < listaDialogos.Count)
+        {
+            textoPantalla.text = listaDialogos[indiceActual];
+        }
     }
 
     public void SiguienteFrase()
     {
-        if (colaDialogos.Count == 0)
+        if (indiceActual < listaDialogos.Count - 1)
+        {
+            indiceActual++;
+            MostrarFraseActual();
+        }
+        else
         {
             CierraCartel();
-            return;
         }
+    }
 
-        string fraseActual = colaDialogos.Dequeue();
-        textoPantalla.text = fraseActual;
-        //Debug.Log("Llamada a SiguienteFrase");
+    public void FraseAnterior()
+    {
+        if (indiceActual > 0)
+        {
+            indiceActual--;
+            MostrarFraseActual();
+        }
     }
 
     public void CierraCartel()
     {
         anim.SetBool("Cartel", false);
-
+        SiguienteFraseB.SetActive(false);
+        AnteriorFraseB.SetActive(false);
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //puntos=0;
-        anim = GetComponent<Animator>();
-       
-        colaDialogos = new Queue<string>();
-    }
-
 }

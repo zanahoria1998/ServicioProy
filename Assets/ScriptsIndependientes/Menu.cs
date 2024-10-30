@@ -167,4 +167,10 @@ public class Menu : MonoBehaviour
         
     }
 
+    public void CerrarMenu(){
+        Debug.Log("Cerrando juego");
+        Application.Quit();
+        
+    }
+
 }

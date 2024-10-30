@@ -180,11 +180,13 @@ public class ControlDialogoN9 : MonoBehaviour
     }
 
     public void ButtonSN(){
+        Time.timeScale = 0f;
         ImagenSN.SetActive(true);
         BotonSN.SetActive(true);
     }
 
      public void NivelPerdido(){
+        Time.timeScale = 0f;
         ImagenNP.SetActive(true);
         BotonNP.SetActive(true);
     }

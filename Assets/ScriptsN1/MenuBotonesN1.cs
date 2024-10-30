@@ -7,6 +7,14 @@ using TMPro;
 public class MenuBotonesN1 : MonoBehaviour {
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menubotones;
+    [SerializeField] TextMeshProUGUI textoCrono;
+    [SerializeField] private float tiempo;
+    public GameObject BotonTT;
+    public GameObject ImagenTT;
+
+    bool tiempoDetenido;
+
+    private int tiempoMinutos, tiempoSegundos;
 
     public void Pausa(){
         Time.timeScale = 0f;
@@ -23,27 +31,53 @@ public class MenuBotonesN1 : MonoBehaviour {
     }
 
     public void Reiniciar(){
-        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         PlayerPrefs.DeleteKey("VariablePuntos");
+        /*Time.timeScale = 1f;
+        Debug.Log("Reinicia reloj");*/
         
     }
 
-    public void Cerrar(){
+
+    public void CerrarNivel(){
+        Debug.Log("BorrarPuntos");
+        PlayerPrefs.DeleteKey("VariablePuntos");
         Debug.Log("Cerrando juego");
         Application.Quit();
         
     }
 
     public void VolverMenu(){
-        Debug.Log("Regresar al menu");
-        PlayerPrefs.DeleteKey("VariablePuntos");
         SceneManager.LoadScene(0);
         
     }
 
-    public void VolverMenuConDatos(){
-        SceneManager.LoadScene(0);
-        
+    void Cronometro(){
+
+        if (!tiempoDetenido){
+            tiempo -= Time.deltaTime;
+        }
+
+
+        tiempoMinutos = Mathf.FloorToInt(tiempo / 60);
+        tiempoSegundos = Mathf.FloorToInt(tiempo % 60);
+
+        textoCrono.text = string.Format("{0:00}:{1:00}", tiempoMinutos, tiempoSegundos);
+
+        if (tiempo <= 0){
+            tiempoDetenido=true;
+            tiempo=0;
+            Debug.Log("Tu tiempo se acabo");
+            ImagenTT.SetActive(true);
+            BotonTT.SetActive(true);
+        }
+    }
+
+    void Update(){
+        Cronometro();
+    }
+
+    void Start(){
+        Time.timeScale = 1f;
     }
 }
