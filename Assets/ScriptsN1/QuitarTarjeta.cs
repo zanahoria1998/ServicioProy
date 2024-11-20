@@ -29,14 +29,14 @@ public class QuitarTarjeta : MonoBehaviour
 
             this.gameObject.SetActive(false);
             Debug.Log("Primer If de quitar tarjeta");
-            //BPausa.SetActive(true);
+            BPausa.SetActive(true);
         }
 
         if(displayImage.GetComponent<DisplayImage>().actualEstado == DisplayImage.Estado.normal){
 
             this.gameObject.SetActive(false);
             Debug.Log("Segundo If de quitar tarjeta");
-            //BPausa.SetActive(true);
+            BPausa.SetActive(true);
         }
     }
 }

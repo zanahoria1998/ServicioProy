@@ -9,6 +9,7 @@ public class QuitartarjetaN6 : MonoBehaviour
 
     public bool finalizado {get; private set; }
 
+    public GameObject BPausa;
     private GameObject displayImage;
     // Start is called before the first frame update
     void Start()
@@ -28,12 +29,14 @@ public class QuitartarjetaN6 : MonoBehaviour
 
             this.gameObject.SetActive(false);
             Debug.Log("Primer If de quitar tarjeta");
+            BPausa.SetActive(true);
         }
 
         if(displayImage.GetComponent<DisplayImageN6>().actualEstado == DisplayImageN6.Estado.normal){
 
             this.gameObject.SetActive(false);
             Debug.Log("Segundo If de quitar tarjeta");
+            BPausa.SetActive(true);
         }
     }
 }

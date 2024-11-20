@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    [SerializeField] private GameObject botonSi;
+    [SerializeField] private GameObject botonNo;
+    [SerializeField] private GameObject ConfirSalir;
     public Button So;
     public Button Mal;
     public Button SeguWiFi;
@@ -168,9 +171,17 @@ public class Menu : MonoBehaviour
     }
 
     public void CerrarMenu(){
+        ConfirSalir.SetActive(true);
+        
+    }
+
+    public void ButtonSi(){
         Debug.Log("Cerrando juego");
         Application.Quit();
-        
+    }
+
+    public void ButtonNo(){
+        ConfirSalir.SetActive(false);
     }
 
 }

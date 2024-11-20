@@ -9,6 +9,7 @@ public class UIDisplayerN2 : MonoBehaviour, IInteractableN2
    int j,i;
    public Textos textos;//Liga el script de Textos a este script
    public List<GameObject> Tarjetas = new List<GameObject>();
+   public GameObject BPausa;
 
    public void InteractN2(DisplayImageN2 actualDisplay){
 
@@ -34,6 +35,8 @@ public class UIDisplayerN2 : MonoBehaviour, IInteractableN2
          i= Random.Range(0,Tarjetas.Count);
          Debug.Log("Random Lista i" + i);
          Tarjetas[i].SetActive(true);
+         BPausa.SetActive(false);
+         Debug.Log("Se abre tarjeta");
       }
    }
 

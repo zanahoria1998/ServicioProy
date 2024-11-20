@@ -7,6 +7,7 @@ public class Instrucciones : MonoBehaviour
     //public GameObject InstruccionesDiag;
     public Textos textos; //Refereciando al Script Textos
 
+
     /*void Start(){
         FindObjectOfType<ControlDialogoMenu>().ActivarCartel(textos);
     }*/

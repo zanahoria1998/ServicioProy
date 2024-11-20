@@ -10,6 +10,7 @@ public class ControlDialogoMenu : MonoBehaviour
     private int indiceActual; // Índice para la posición actual en la lista de diálogos
     public GameObject SiguienteFraseB;
     public GameObject AnteriorFraseB;
+    public GameObject OmitirFraseB;
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
@@ -25,6 +26,7 @@ public class ControlDialogoMenu : MonoBehaviour
         texto = textoObjeto;
         SiguienteFraseB.SetActive(true);
         AnteriorFraseB.SetActive(true);
+        OmitirFraseB.SetActive(true);
     }
 
     public void ActivaTexto()
@@ -74,5 +76,6 @@ public class ControlDialogoMenu : MonoBehaviour
         anim.SetBool("Cartel", false);
         SiguienteFraseB.SetActive(false);
         AnteriorFraseB.SetActive(false);
+        OmitirFraseB.SetActive(false);
     }
 }

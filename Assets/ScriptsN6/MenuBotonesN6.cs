@@ -7,14 +7,19 @@ using TMPro;
 public class MenuBotonesN6 : MonoBehaviour {
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menubotones;
-    [SerializeField] TextMeshProUGUI textoCrono;
+
+    [SerializeField] private GameObject botonSi;
+    [SerializeField] private GameObject botonNo;
+    [SerializeField] private GameObject ConfirSalir;
+
+    /*[SerializeField] TextMeshProUGUI textoCrono;
     [SerializeField] private float tiempo;
     public GameObject BotonTT;
     public GameObject ImagenTT;
 
     bool tiempoDetenido;
 
-    private int tiempoMinutos, tiempoSegundos;
+    private int tiempoMinutos, tiempoSegundos;*/
 
     public void Pausa(){
         Time.timeScale = 0f;
@@ -38,10 +43,20 @@ public class MenuBotonesN6 : MonoBehaviour {
     }
 
     public void CerrarNivel(){
-        PlayerPrefs.DeleteKey("VariablePuntosN6");
+        
+        ConfirSalir.SetActive(true);
+        
+    }
+
+    public void ButtonSi(){
+        Debug.Log("BorrarPuntos");
+        PlayerPrefs.DeleteKey("VariablePuntos");
         Debug.Log("Cerrando juego");
         Application.Quit();
-        
+    }
+
+    public void ButtonNo(){
+        ConfirSalir.SetActive(false);
     }
 
     public void VolverMenu(){
@@ -49,7 +64,7 @@ public class MenuBotonesN6 : MonoBehaviour {
         
     }
 
-    void Cronometro(){
+    /*void Cronometro(){
 
         if (!tiempoDetenido){
             tiempo -= Time.deltaTime;
@@ -76,5 +91,5 @@ public class MenuBotonesN6 : MonoBehaviour {
 
     void Start(){
         Time.timeScale = 1f;
-    }
+    }*/
 }
