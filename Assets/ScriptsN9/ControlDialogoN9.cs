@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ControlDialogoN9 : MonoBehaviour
 {
 
-    public GameObject BotonSN;
-    public GameObject ImagenSN;
+    //public GameObject PanelFinal;
+    //public GameObject PanelFinal;
     public GameObject BotonNP;
     public GameObject ImagenNP;
     public GameObject Prefabtrofeo;
@@ -17,6 +18,7 @@ public class ControlDialogoN9 : MonoBehaviour
     private Queue <string> colaDialogos;
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
+    [SerializeField] private AnimationClip animacionFinal;
 
     public void ActivarCartel(Textos textoObjeto)//TextoObjeto es el texto que se le pasa en el script (ObjetoInteractable)
     {
@@ -80,11 +82,13 @@ public class ControlDialogoN9 : MonoBehaviour
         anim = GetComponent<Animator>();
        
         colaDialogos = new Queue<string>();
+
+        //anim2 = animacionFinal;
     }
 
     public void Update(){
         if (puntosN9 == 5){
-            ButtonSN();
+            StartCoroutine(ButtonSN());
         } 
 
      }
@@ -179,10 +183,17 @@ public class ControlDialogoN9 : MonoBehaviour
         } 
     }
 
-    public void ButtonSN(){
-        Time.timeScale = 0f;
-        ImagenSN.SetActive(true);
-        BotonSN.SetActive(true);
+    IEnumerator ButtonSN(){
+        //Time.timeScale = 0f;
+        //ImagenSN.SetActive(true);
+        //PanelFinal.SetActive(true);
+
+        anim.SetTrigger("Terminar");
+        Debug.Log("Después de El trigger");
+        yield return new WaitForSeconds(animacionFinal.length);
+        Debug.Log("Después de Yield Return" + animacionFinal.length);
+        //anim.SetTrigger("Finalizar");
+        SceneManager.LoadScene(10);
     }
 
      public void NivelPerdido(){

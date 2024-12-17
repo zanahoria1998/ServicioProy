@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ControlDialogo : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class ControlDialogo : MonoBehaviour
     public GameObject ImagenSN;
     public GameObject BotonNP;
     public GameObject ImagenNP;
+    public GameObject PanelApertura;
     public GameObject Prefabtrofeo;
     //private GameObject botonPausa;
     public int puntosN1; //contador
@@ -17,6 +19,7 @@ public class ControlDialogo : MonoBehaviour
     private Animator anim;
     private Queue <string> colaDialogos;
     Textos texto;
+    Image imagenPanel;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
     public void ActivarCartel(Textos textoObjeto)//TextoObjeto es el texto que se le pasa en el script (ObjetoInteractable)
@@ -80,6 +83,7 @@ public class ControlDialogo : MonoBehaviour
     
         //puntosN1=0;
         anim = GetComponent<Animator>();
+
        
         colaDialogos = new Queue<string>();
     }
@@ -192,6 +196,10 @@ public class ControlDialogo : MonoBehaviour
         Debug.Log("PausaReloj");
         ImagenSN.SetActive(true);
         BotonSN.SetActive(true);
+        //PanelApertura.Image.SetActive(false);
+        imagenPanel = PanelApertura.GetComponent<Image>();//.enabled = false;
+        imagenPanel.enabled = false;
+
         //botonPausa.SetActive(false);
     }
 

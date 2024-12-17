@@ -35,7 +35,7 @@ public class Menu : MonoBehaviour
     void Start(){
 
         //FindObjectOfType<ControlDialogoMenu>().ActivarCartel(textos);
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         N1 = PlayerPrefs.GetInt("VariablePuntos", 0);
         N2 = PlayerPrefs.GetInt("VariablePuntosN2", 0);
         N3 = PlayerPrefs.GetInt("VariablePuntosN3", 0);

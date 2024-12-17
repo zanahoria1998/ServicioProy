@@ -38,6 +38,7 @@ ScriptsOnlyBuild:
     - ControlDialogoN7
     - ControlDialogoN8
     - ControlDialogoN9
+    - CronometroClass
     - DisplayImage
     - DisplayImageN2
     - DisplayImageN3
@@ -47,6 +48,7 @@ ScriptsOnlyBuild:
     - DisplayImageN7
     - DisplayImageN8
     - DisplayImageN9
+    - GuardarNombre
     - Instrucciones
     - Interact
     - InteractN2
@@ -115,7 +117,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -149,6 +150,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
     "Assets/Scenes/Men\xFA.unity":
@@ -187,6 +189,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2304}
     - Class: 114
+      Script: {instanceID: 2312}
+    - Class: 114
       Script: {instanceID: 2764}
     - Class: 114
       Script: {instanceID: 2942}
@@ -195,17 +199,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3200}
     - Class: 114
+      Script: {instanceID: 3272}
+    - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 5454}
     - Class: 114
-      Script: {instanceID: 5452}
+      Script: {instanceID: 5464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,21 +284,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3724}
+      Script: {instanceID: 3674}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 3726}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 3932}
     - Class: 114
-      Script: {instanceID: 4696}
+      Script: {instanceID: 4058}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 4698}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 5538}
+    - Class: 114
+      Script: {instanceID: 5894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -371,15 +379,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 4020}
+      Script: {instanceID: 3986}
     - Class: 114
-      Script: {instanceID: 5986}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 5990}
+    - Class: 114
+      Script: {instanceID: 6008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -456,17 +466,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 4324}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5618}
+    - Class: 114
+      Script: {instanceID: 5798}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -541,19 +553,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3504}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 4364}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 5462}
+      Script: {instanceID: 4366}
     - Class: 114
-      Script: {instanceID: 5502}
+      Script: {instanceID: 5466}
     - Class: 114
-      Script: {instanceID: 5842}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 5846}
+    - Class: 114
+      Script: {instanceID: 5930}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -624,23 +638,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3650}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3988}
+      Script: {instanceID: 3652}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 4082}
+      Script: {instanceID: 4008}
     - Class: 114
-      Script: {instanceID: 4826}
+      Script: {instanceID: 4084}
     - Class: 114
-      Script: {instanceID: 4990}
+      Script: {instanceID: 4828}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 5734}
+    - Class: 114
+      Script: {instanceID: 5938}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -717,17 +733,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 5018}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5256}
     - Class: 114
-      Script: {instanceID: 5712}
+      Script: {instanceID: 5662}
+    - Class: 114
+      Script: {instanceID: 5716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -802,19 +820,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3968}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 4442}
+      Script: {instanceID: 3970}
     - Class: 114
-      Script: {instanceID: 4518}
+      Script: {instanceID: 4444}
     - Class: 114
-      Script: {instanceID: 4812}
+      Script: {instanceID: 4520}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 4814}
     - Class: 114
-      Script: {instanceID: 5586}
+      Script: {instanceID: 5182}
+    - Class: 114
+      Script: {instanceID: 5590}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -887,21 +907,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 3794}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 4022}
+      Script: {instanceID: 3796}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4492}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 4494}
     - Class: 114
-      Script: {instanceID: 6030}
+      Script: {instanceID: 5722}
     - Class: 114
-      Script: {instanceID: 6086}
+      Script: {instanceID: 6034}
+    - Class: 114
+      Script: {instanceID: 6090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -978,17 +1000,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 5044}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5046}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5580}
+      Script: {instanceID: 5522}
     - Class: 114
-      Script: {instanceID: 5840}
+      Script: {instanceID: 5584}
+    - Class: 114
+      Script: {instanceID: 5844}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1028,7 +1052,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN4
@@ -1088,7 +1112,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 6dba3133ceb510c62f4b6081f292cebb
+      Hash: 221664249d1dfa27582d3cc2f0695fa2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControlDialogoMenu
@@ -1124,7 +1148,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN6
@@ -1142,7 +1166,7 @@ ScriptsOnlyBuild:
     className: ControlDialogoN5
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN5
@@ -1166,7 +1190,7 @@ ScriptsOnlyBuild:
     className: DisplayImageN9
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN3
@@ -1184,7 +1208,7 @@ ScriptsOnlyBuild:
     className: ChangeViewN6
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractable
@@ -1232,7 +1256,7 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN9
@@ -1250,7 +1274,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN4
@@ -1328,13 +1352,13 @@ ScriptsOnlyBuild:
     className: ButtonHandlerN8
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN9
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN4
@@ -1370,13 +1394,13 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN6
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN2
@@ -1394,13 +1418,13 @@ ScriptsOnlyBuild:
     className: DisplayImageN3
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN2
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN7
@@ -1412,13 +1436,13 @@ ScriptsOnlyBuild:
     className: ButtonHandlerN2
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN8
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN3
@@ -1484,7 +1508,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN3
@@ -1526,7 +1550,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN7
@@ -1592,6 +1616,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: db0e0e1cd944734d5fcc2e26a5116f37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CronometroClass
+  - hash:
+      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1604,13 +1634,13 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN5
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN1
@@ -1622,13 +1652,13 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayer
   - hash:
       serializedVersion: 2
-      Hash: 2ab6ff724b26326513faaf0f97296902
+      Hash: bc265606654bf7294c4a4b416b5a8cc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBotonesN8
@@ -1646,7 +1676,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitarTarjeta
@@ -1664,7 +1694,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN2
@@ -1694,7 +1724,7 @@ ScriptsOnlyBuild:
     className: InteractN2
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN8
@@ -1766,7 +1796,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN6
@@ -1778,7 +1808,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN3
@@ -1802,7 +1832,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN7
@@ -1820,7 +1850,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN8
@@ -1886,7 +1916,7 @@ ScriptsOnlyBuild:
     className: SpriteResolver
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN5
@@ -1928,7 +1958,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: e5160a2220db8b8cda666d8629d3a9ce
+      Hash: 25022fadc50a96a4cc327d10c8a695f1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1988,7 +2018,7 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN6
@@ -2018,6 +2048,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 21a4d74c4098541f349d69c37f3742f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GuardarNombre
+  - hash:
+      serializedVersion: 2
       Hash: 6dcc8bdbbd48c9d9a0f9f076422a6a54
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2036,7 +2072,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN9
@@ -2048,13 +2084,13 @@ ScriptsOnlyBuild:
     className: ControlDialogo
   - hash:
       serializedVersion: 2
-      Hash: 673693816770f861c0be4f5c20f95ec8
+      Hash: 664371333a9e869332aceddad82b35c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDisplayerN9
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN7
@@ -2132,13 +2168,13 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN4
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 82828962c4878b671189f5c9667459ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuitartarjetaN5
@@ -2156,7 +2192,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 485b2f5781a8df5c36c8c4870a6b30cd
+      Hash: ae780d6fe4c954159765bd799130dd6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjetoInteractableN2
