@@ -12,6 +12,9 @@ public class MenuBotonesN3 : MonoBehaviour {
     [SerializeField] private GameObject botonNo;
     [SerializeField] private GameObject ConfirSalir;
 
+    public GameObject sonido;
+    public GameObject sonidoMute;
+
     /*[SerializeField] TextMeshProUGUI textoCrono;
     [SerializeField] private float tiempo;
     public GameObject BotonTT;
@@ -62,6 +65,18 @@ public class MenuBotonesN3 : MonoBehaviour {
     public void VolverMenu(){
         SceneManager.LoadScene(0);
         
+    }
+
+    public void PausarSonido(){
+        ScriptAudio.Pausar();
+        sonidoMute.SetActive(true);
+        sonido.SetActive(false);
+    }
+
+    public void DespausarSonido(){
+        ScriptAudio.Despause();
+        sonidoMute.SetActive(false);
+        sonido.SetActive(true);
     }
 
     /*void Cronometro(){

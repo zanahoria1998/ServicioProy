@@ -133,7 +133,7 @@ public class ControlDialogoN9 : MonoBehaviour
     public void Trofeo(){
         puntosN9++;
         RevisionPuntaje();
-        PlayerPrefs.SetInt("VariablepuntosN9", puntosN9);
+        PlayerPrefs.SetInt("VariablePuntosN9", puntosN9);
         /*if (puntosN9 == 5){
             ButtonSN();
         } */

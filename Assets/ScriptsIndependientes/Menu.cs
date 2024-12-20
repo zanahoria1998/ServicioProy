@@ -35,7 +35,7 @@ public class Menu : MonoBehaviour
     void Start(){
 
         //FindObjectOfType<ControlDialogoMenu>().ActivarCartel(textos);
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
         N1 = PlayerPrefs.GetInt("VariablePuntos", 0);
         N2 = PlayerPrefs.GetInt("VariablePuntosN2", 0);
         N3 = PlayerPrefs.GetInt("VariablePuntosN3", 0);
@@ -99,7 +99,7 @@ public class Menu : MonoBehaviour
         }
 
         if(N7==5){
-            Debug.Log("Prueba7=" + N6);
+            Debug.Log("Prueba7=" + N7);
             IngSocial.interactable = true;
 
         }

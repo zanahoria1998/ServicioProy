@@ -11,6 +11,9 @@ public class MenuBotonesN1 : MonoBehaviour {
     [SerializeField] private GameObject botonSi;
     [SerializeField] private GameObject botonNo;
     [SerializeField] private GameObject ConfirSalir;
+
+    public GameObject sonido;
+    public GameObject sonidoMute;
     
     /*[SerializeField] TextMeshProUGUI textoCrono;
     [SerializeField] private float tiempo;
@@ -66,32 +69,15 @@ public class MenuBotonesN1 : MonoBehaviour {
         
     }
 
-    /*void Cronometro(){
-
-        if (!tiempoDetenido){
-            tiempo -= Time.deltaTime;
-        }
-
-
-        tiempoMinutos = Mathf.FloorToInt(tiempo / 60);
-        tiempoSegundos = Mathf.FloorToInt(tiempo % 60);
-
-        textoCrono.text = string.Format("{0:00}:{1:00}", tiempoMinutos, tiempoSegundos);
-
-        if (tiempo <= 0){
-            tiempoDetenido=true;
-            tiempo=0;
-            Debug.Log("Tu tiempo se acabo");
-            ImagenTT.SetActive(true);
-            BotonTT.SetActive(true);
-        }
+    public void PausarSonido(){
+        ScriptAudio.Pausar();
+        sonidoMute.SetActive(true);
+        sonido.SetActive(false);
     }
 
-    void Update(){
-        Cronometro();
+    public void DespausarSonido(){
+        ScriptAudio.Despause();
+        sonidoMute.SetActive(false);
+        sonido.SetActive(true);
     }
-
-    void Start(){
-        Time.timeScale = 1f;
-    }*/
 }

@@ -12,6 +12,9 @@ public class GuardarNombre : MonoBehaviour
     public GameObject panelInput; // Panel que contiene el InputField y el botón
     public GameObject panelNombre; // Panel donde se mostrará el nombre guardado
 
+    public GameObject sonido;
+    public GameObject sonidoMute;
+
     private void Awake()
     {
         luz.color = Color.red;
@@ -60,5 +63,17 @@ public class GuardarNombre : MonoBehaviour
         Debug.Log("Este es el nombre: " + nombre);
         panelInput.SetActive(false); // Oculta el panel de entrada
         panelNombre.SetActive(true); // Muestra el panel del nombre guardado
+    }
+
+    public void PausarSonido(){
+        ScriptAudio.Pausar();
+        sonidoMute.SetActive(true);
+        sonido.SetActive(false);
+    }
+
+    public void DespausarSonido(){
+        ScriptAudio.Despause();
+        sonidoMute.SetActive(false);
+        sonido.SetActive(true);
     }
 }
